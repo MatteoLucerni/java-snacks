@@ -9,6 +9,8 @@ public class Snack1 {
 		System.out.println("Inserisci un numero: ");
 		int inputNumber = in.nextInt();
 		
+		in.close();
+		
 		if(!(inputNumber % 2 == 0)) inputNumber++;
 		
 		System.out.println("Risultato: "+ inputNumber);
