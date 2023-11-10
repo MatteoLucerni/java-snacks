@@ -33,12 +33,12 @@ public class Snack9 {
 
         System.out.println("Numeri Pari: ");
         for (int i = 0; i < evenArray.length; i++) {
-        System.out.println(evenArray[i] + " ");
+        System.out.println(evenArray[i]);
         }
         
         System.out.println("Numeri Dispari: ");
         for (int i = 0; i < oddArray.length; i++) {
-        System.out.println(oddArray[i] + " ");
+        System.out.println(oddArray[i]);
         }
     }
 }
